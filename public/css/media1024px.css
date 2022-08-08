@@ -1,0 +1,84 @@
+@media screen and (max-width:1024px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .hero_container{
+        padding: 60px 0;
+        grid-template-columns: 2fr;
+        grid-template-rows: 2fr 2fr;
+    }
+
+    .hero_img{
+        order: -1;
+        width: 50%;
+    }
+
+    .hero_title{
+        font-size: 3.8rem;
+    }
+
+    .hero_text{
+        display: none;
+    }
+
+    /*About*/
+
+    .about{
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content 1fr;
+        gap: 80px;
+    }
+
+    .about_plaza{
+        width: 100%;
+    }
+
+    .about_picture{
+        order: -1;
+    }
+
+    .about_img{
+        width: 100%;
+    }
+
+    /*Card*/
+
+    .card_container{
+        margin-left: 70px;
+        width: 700px;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .container__plaza{
+        width: 90%;
+        max-width: 1200px;
+        padding: 100px 0;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+
+    /*Footer*/
+
+    .footer_contact{
+        grid-template-columns: 1fr;
+    }
+
+    .footer_text{
+        order: 1;
+        text-align: center;
+    }
+
+    .footer_social{
+        justify-content: space-evenly;
+    }
+
+    h2.title{
+        text-align: center;
+    }
+
+}

@@ -24,7 +24,7 @@ class HomeController extends Controller
      */
     public function panel()
     {
-		$images = Image::orderBy('id', 'desc')->paginate(5);
+		$images = Image::orderBy('id', 'desc')->paginate(10);
 		
         return view('panel',[
 			'images' => $images

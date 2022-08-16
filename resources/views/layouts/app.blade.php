@@ -11,6 +11,10 @@
     <link rel="shortcut icon" href="{{ asset('img/Logo.png') }}" type="image/x-icon">
 
     <title>{{ config('app.name', 'Cocomiel') }}</title>
+    
+    <!-- SEO -->
+    <meta content="" name="description">
+    <meta content="" name="keywords">
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>

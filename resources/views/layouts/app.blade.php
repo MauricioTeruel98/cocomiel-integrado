@@ -15,6 +15,7 @@
     <!-- SEO -->
     <meta content="" name="description">
     <meta content="" name="keywords">
+    <meta name="author" content="" />
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>

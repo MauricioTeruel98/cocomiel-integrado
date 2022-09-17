@@ -1,8 +1,11 @@
+@extends('layouts.apppublic')
+
+@section('jsheader')
 <head>
     <title>Cocomiel - Productos</title>
 </head>
+@endsection
 
-@extends('layouts.apppublic')
 
 @section('content')
 <div>
@@ -12,15 +15,15 @@
 
             <div class="wrap">
 
-                <div id="logo">
-                    <img src="{{ asset('img/Logo.png') }}" alt="">
+                <div >
+                    
                 </div>
 
                 <nav>
                     <ul>
                         <li>
-                            <a href="{{ route('home') }}">
-                                <img class="img-home" src="{{ asset('img/home.png') }}" alt="">
+                            <a href="{{ route('home') }}" id="logo">
+                                <img src="{{ asset('img/Logo.png') }}" alt="">
                             </a>
                         </li>
                     </ul>

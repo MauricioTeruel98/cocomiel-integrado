@@ -1,10 +1,12 @@
+@extends('layouts.apppublic')
+
+@section('jsheader')
 <head>
     <link rel="shortcut icon" href="{{ asset('img/Logo.png') }}" type="image/x-icon">
     <title>Cocomiel - Plaza</title>
 </head>
+@endsection
 
-@extends('layouts.apppublic')
-@extends('layouts.navbarpublic')
 
 @section('content')
 

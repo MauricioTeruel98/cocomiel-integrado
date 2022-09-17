@@ -2,6 +2,18 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H482G3HMRC"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-H482G3HMRC');
+    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,9 +37,18 @@
     <link rel="stylesheet" href="{{ asset('css/media768px.css') }}">
     <link rel="stylesheet" href="{{ asset('css/media500px.css') }}">
     <link rel="stylesheet" href="{{ asset('css/media390px.css') }}">
+    @yield('jsheader')
 </head>
 
-<body>
+<body class="hidden">
+
+    <div class="centrado" id="preload">
+        <div class="lds-ellipsis">
+            <div></div>
+        </div>
+    </div>
+
+    @include('layouts.navbarpublic')
 
     @yield('content')
 

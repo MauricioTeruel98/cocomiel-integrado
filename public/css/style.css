@@ -126,6 +126,10 @@ form .avatar{
     animation: desaparece 2s;
 }
 
+.d-flex{
+  display: flex;
+}
+
 @keyframes desaparece {
     0%{
         background: linear-gradient(61deg, rgba(255, 210, 207, 1) 0%, rgba(180, 215, 255, 1) 100%);

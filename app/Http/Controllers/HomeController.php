@@ -47,4 +47,8 @@ class HomeController extends Controller
     public function plaza(){
         return view('plaza');
     }
+
+    public function plazaPata(){
+      return view('plaza-patapata');
+  }
 }

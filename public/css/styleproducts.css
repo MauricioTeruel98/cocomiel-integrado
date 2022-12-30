@@ -587,3 +587,12 @@ nav ul li a:hover {
 .img-home {
     height: 90px;
 }
+
+.d-flex{
+    display: flex;
+}
+
+.parallax {
+    background-image: url(/public/img/images/parallax.jpg);
+    background-attachment: fixed !important;
+  }

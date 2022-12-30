@@ -16,6 +16,7 @@
 Auth::routes();
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/plaza', 'HomeController@plaza')->name('plaza');
+Route::get('/plaza-patapata', 'HomeController@plazaPata')->name('plaza-patapata');
 Route::get('/products', 'HomeController@products')->name('products');
 Route::get('/panel', 'HomeController@panel')->name('panel')->middleware('auth');
 
